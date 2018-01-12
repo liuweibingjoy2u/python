@@ -846,7 +846,7 @@ def log(text):
 def fun1(name,age):
 	print 'my name is %s,i\'m %s' %(name,age)
 fun1("liuweibing",28)
-'''
+
 #请设计一个decorator，它可作用于任何函数上，并打印该函数的执行时间：
 import functools,time
 def metric(func):
@@ -878,5 +878,5 @@ elif s != 7986:
 else:
 	print u'测试成功'
 
-
+'''
 
